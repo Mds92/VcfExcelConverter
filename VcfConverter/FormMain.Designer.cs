@@ -37,6 +37,7 @@ namespace VcfConverter
             this.buttonStartConverting = new System.Windows.Forms.Button();
             this.textBoxLog = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +76,7 @@ namespace VcfConverter
             // 
             // buttonStartConverting
             // 
-            this.buttonStartConverting.Location = new System.Drawing.Point(44, 35);
+            this.buttonStartConverting.Location = new System.Drawing.Point(12, 35);
             this.buttonStartConverting.Name = "buttonStartConverting";
             this.buttonStartConverting.Size = new System.Drawing.Size(132, 64);
             this.buttonStartConverting.TabIndex = 4;
@@ -97,18 +98,29 @@ namespace VcfConverter
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(221, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(150, 35);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(319, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(491, 84);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(81, 15);
+            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "olgoirani.com";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 211);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.buttonStartConverting);
@@ -136,6 +148,7 @@ namespace VcfConverter
         private System.Windows.Forms.Button buttonStartConverting;
         private System.Windows.Forms.TextBox textBoxLog;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
