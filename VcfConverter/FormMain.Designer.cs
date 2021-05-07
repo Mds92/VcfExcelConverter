@@ -37,7 +37,7 @@ namespace VcfConverter
             this.buttonStartConverting = new System.Windows.Forms.Button();
             this.textBoxLog = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelOlgoIrani = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,22 +105,22 @@ namespace VcfConverter
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // linkLabel1
+            // linkLabelOlgoIrani
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(491, 84);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(81, 15);
-            this.linkLabel1.TabIndex = 8;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "olgoirani.com";
+            this.linkLabelOlgoIrani.AutoSize = true;
+            this.linkLabelOlgoIrani.Location = new System.Drawing.Point(491, 84);
+            this.linkLabelOlgoIrani.Name = "linkLabelOlgoIrani";
+            this.linkLabelOlgoIrani.Size = new System.Drawing.Size(81, 15);
+            this.linkLabelOlgoIrani.TabIndex = 8;
+            this.linkLabelOlgoIrani.TabStop = true;
+            this.linkLabelOlgoIrani.Text = "olgoirani.com";
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 211);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.linkLabelOlgoIrani);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBoxLog);
             this.Controls.Add(this.buttonStartConverting);
@@ -148,7 +148,7 @@ namespace VcfConverter
         private System.Windows.Forms.Button buttonStartConverting;
         private System.Windows.Forms.TextBox textBoxLog;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabelOlgoIrani;
     }
 }
 
